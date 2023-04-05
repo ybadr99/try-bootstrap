@@ -102,7 +102,8 @@
                 <li class=" me-3"><span class="badge bg-secondary">CSS</span></li>
                 <li class=" me-3"><span class="badge bg-secondary">JAVASCRIPT</span></li>
               </ul>
-              <button type="button" class="btn btn-outline-info mt-3">See projects</button>
+              <button type="button" class="btn btn-outline-info mt-3" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">See projects</button>
             </div>
           </div>
         </div>
@@ -126,8 +127,8 @@
                 <li class=" me-3"><span class="badge bg-secondary">CSS</span></li>
                 <li class=" me-3"><span class="badge bg-secondary">JAVASCRIPT</span></li>
               </ul>
-              <button type="button" class="btn btn-outline-info mt-3">See projects</button>
-            </div>
+              <button type="button" class="btn btn-outline-info mt-3" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">See projects</button>            </div>
           </div>
           <div class="col-md-6 p-3">
             <img src="images/works-img-2.svg" class="img-fluid rounded-start" alt="...">
@@ -156,8 +157,8 @@
                 <li class=" me-3"><span class="badge bg-secondary">CSS</span></li>
                 <li class=" me-3"><span class="badge bg-secondary">JAVASCRIPT</span></li>
               </ul>
-              <button type="button" class="btn btn-outline-info mt-3">See projects</button>
-            </div>
+              <button type="button" class="btn btn-outline-info mt-3" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">See projects</button>            </div>
           </div>
         </div>
       </div>
@@ -179,8 +180,8 @@
                 <li class=" me-3"><span class="badge bg-secondary">CSS</span></li>
                 <li class=" me-3"><span class="badge bg-secondary">JAVASCRIPT</span></li>
               </ul>
-              <button type="button" class="btn btn-outline-info mt-3">See projects</button>
-            </div>
+              <button type="button" class="btn btn-outline-info mt-3" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">See projects</button>            </div>
           </div>
           <div class="col-md-6 p-3">
             <img src="images/works-img-4.svg" class="img-fluid rounded-start" alt="...">
@@ -188,44 +189,18 @@
         </div>
       </div>
     </div>
-    <!-- <div
-      id="works"
-      class="container d-flex justify-content-between align-items-center">
-      <div class="row">
-        <div class="card col-md-4 ml-4">
-          <img
-            src="https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051_960_720.jpg"
-            class="card-img-top"
-            alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal">
-              See project
-            </button>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- Modal -->
+  
+  <!-- Modal -->
     <div
       class="modal fade"
       id="exampleModal"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true">
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Portfolio</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Tonic</h5>
             <button
               type="button"
               class="btn-close"
@@ -235,14 +210,12 @@
           <div class="modal-body">
             <div class="card">
               <img
-                src="https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051_960_720.jpg"
+                src="./images/works-img-1.png"
                 class="card-img-top"
                 alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 </p>
               </div>
             </div>
@@ -250,16 +223,14 @@
           <div class="modal-footer">
             <button
               type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal">
-              Close
+              class="btn btn-outline-secondary">
+              see source
             </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-outline-primary">see live</button>
           </div>
         </div>
       </div>
     </div>
-    <!-- end Modal -->
 
     <!-- Bootstrap js cdn -->
     <script
