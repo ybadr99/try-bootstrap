@@ -1,0 +1,22 @@
+body {
+  background-color: #e5e5e5;
+}
+
+.headline-container {
+  background-image: url(/images/Header-bg.svg);
+  background-color: #fff;
+  border-bottom-left-radius: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contactme-container {
+  background-color: #6070ff;
+  border-top-left-radius: 40px;
+}
+
+.css-bg-contactme {
+  background-image: url(/images/contact\ form\ background\ shapes.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
